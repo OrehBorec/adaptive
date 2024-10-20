@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #1A3E3E;;
+}
+
+.video{
+    position: relative;
+    height: 70vh;
+    width: 70vw;
+}
+.cross{
+    position: absolute;
+    font-size: 55px;
+    top: 95px;
+    right:245px;
+    color: rgb(145, 145, 145);
+    text-decoration: none;
+}
+
+.cross:hover{
+    color: white;
+}
